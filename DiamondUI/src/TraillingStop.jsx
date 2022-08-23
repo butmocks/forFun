@@ -6,43 +6,31 @@ import React, { useState } from 'react';
 // trailing_only_offset_is_reached: false,
 
 const TrailingStop = () => {
-  const trailingStopStatus = ["true", "false"];
+  const trailingStopStatus = ['true', 'false'];
   const [trailingStopValue, setTraillingStopValue] = useState(true);
   const handleChangeStopStatus = event => {
     setTraillingStopValue(event.target.value);
   };
 
-
-
-  const trailingOffsetStatus = ["true", "false"];
+  const trailingOffsetStatus = ['true', 'false'];
   const [trailingOffsetValue, setTraillingOffsetValue] = useState(false);
   const handleChangeOffset = event => {
     setTraillingOffsetValue(event.target.value);
   };
 
-
-
   const [traillingStopPositive, setTraillingStopPossitiveValue] = useState('0.011');
-    const handleChangeStopPositive = event => {
+  const handleChangeStopPositive = event => {
     setTraillingStopPossitiveValue(event.target.value);
   };
-
-
 
   const [traillingStopPositiveOffset, setTraillingStopPossitiveOffsetValue] = useState('0.054');
   const handleChangeBuyVertical = event => {
     setTraillingStopPossitiveOffsetValue(event.target.value);
   };
 
-
-
-
-
-
-
   return (
     <div className="page__content">
-      <h2>Trailing Params</h2>
+      <h3>Trailing Params</h3>
 
       <label>
         Trailing Stop
@@ -81,19 +69,12 @@ const TrailingStop = () => {
 
       <label>
         Trailing Only Offset is Reached
-        <select
-        value={trailingOffsetValue} 
-        onChange={handleChangeOffset}
-        >
+        <select value={trailingOffsetValue} onChange={handleChangeOffset}>
           {trailingOffsetStatus.map(option => (
-            <option setValue={option}>
-              {option}
-              </option>
+            <option setValue={option}>{option}</option>
           ))}
         </select>
-
       </label>
-      
     </div>
   );
 };

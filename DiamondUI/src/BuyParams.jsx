@@ -40,7 +40,7 @@ const BuyParams = () => {
 
   return (
     <div className="page__content">
-      <h2>Buy Params</h2>
+      <h3>Buy Params</h3>
 
       <label>
         Buy fast key

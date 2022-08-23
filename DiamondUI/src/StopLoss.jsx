@@ -16,7 +16,7 @@ const StopLoss = () => {
 
   return (
     <div className="page__content">
-      <h2>Stop Loss</h2>
+      <h3>Stop Loss</h3>
 
       <div>
         <label>

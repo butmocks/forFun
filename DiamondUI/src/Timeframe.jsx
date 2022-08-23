@@ -15,7 +15,7 @@ const Timeframe = () => {
 
   return (
     <div className="page__content">
-      <h2>Timeframe</h2>
+      <h3>Timeframe</h3>
 
       <div>
         <label>

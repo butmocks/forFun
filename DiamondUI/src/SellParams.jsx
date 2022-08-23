@@ -33,7 +33,7 @@ const SellParams = () => {
 
   return (
     <div className="page__content">
-      <h2>SellParams</h2>
+      <h3>SellParams</h3>
 
       <label>
         Sell fast key

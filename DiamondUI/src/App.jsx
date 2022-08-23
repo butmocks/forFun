@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <form>
-        <div>
+        
           <BuyParams />
           <SellParams />
 
@@ -22,7 +22,7 @@ class App extends React.Component {
           <StopLoss />
           <TrailingStop />
           <Timeframe />
-        </div>
+       
       </form>
     );
   }

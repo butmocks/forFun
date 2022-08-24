@@ -1,0 +1,69 @@
+<body>
+	<!-- The game display-->
+	<div class="container-fluid">
+		<section id="play">
+			<div class="row no-gutters">
+				<div class="col-xs-12 col-lg-6 col-lg-offset-3">
+					<div id="viewAllSpace">
+						<div class="text-center"><button class="arrow-button"><span class="fa fa-eye animated flipInY" id="review" data-toggle="modal" data-target="#reviewList"></span></button></div>
+						<div class="modal fade" id="reviewList">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="text-center">Truths</h4>
+										</div>
+										<ul class="list-group" id="truthList">
+										</ul>
+									</div>
+									<br>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="text-center">Dares</h4>
+										</div>
+										<ul class="list-group" id="dareList">
+										</ul>
+									</div>
+									<div class="modal-footer black-bg">
+										<button data-dismiss="modal" class="white-color" id="close">
+											<span class="fa fa-close"></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="truthSpace">
+						<button class="btn btn-block black-bg white-color" id="truth">Truth</button>
+					</div>
+					<div id="statementSpace"></div>
+					<div id="dareSpace">
+						<button class="btn btn-block black-bg white-color" id="dare">Dare</button>
+					</div>
+					<div id="resetSpace"></div>
+				</div>
+			</div>
+		</section>
+		<!-- The customization display-->
+		<section id="edit">
+			<div class="row no-gutters">
+				<div class="col-xs-12">
+					<div id="addSpace" class="black-bg">
+						<input type="text" class="form-control" placeholder="Type a truth question here." id="truthInput">
+						<button class="btn" id="checkTruthButton"><span class="fa fa-check" id="checkTruth"></span></button>
+						<input type="text" class="form-control" placeholder="Type a dare challenge here." id="dareInput">
+						<button class="btn" id="checkDareButton"><span class="fa fa-check" id="checkDare"></span></button>
+					</div>
+					<div id="inputSpace">
+						<ul class="list-group" id="newTruthList"></ul>
+						<ul class="list-group" id="newDareList"></ul>
+					</div>
+					<div id="progressSpace">
+						<button class="btn btn-block black-bg white-color" id="next">Next</button>
+						<button class="btn btn-block black-bg white-color" id="save">Save</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>

@@ -1,0 +1,32 @@
+.alert{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    margin-bottom: 20px;    
+    width: fit-content;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: tomato;
+    color: white;
+    font-size: 1.1rem;
+} 
+
+.btn_close{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.btn_close:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "25 retos diarios de vainilla JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanecordero/adventJS.git"
+  },
+  "author": "VanCor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanecordero/adventJS/issues"
+  },
+  "homepage": "https://github.com/vanecordero/adventJS#readme"
+}

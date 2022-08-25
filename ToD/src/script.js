@@ -1,6 +1,6 @@
 /* check if there are already stored truth and dare items and give users the choice to use them or set default */
 if (localStorage.getItem("truths") && localStorage.getItem("dares")) {
-	if (confirm("Do you want to use your saved truths and dares?")) {
+	if (confirm("Ви впевнені що всі завдання вам підходять?")) {
 		var truthsGet = localStorage.getItem("truths");
 		var truths = JSON.parse(truthsGet);
 

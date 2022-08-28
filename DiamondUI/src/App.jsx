@@ -14,15 +14,13 @@ class App extends React.Component {
   render() {
     return (
       <form>
-        
-          <BuyParams />
-          <SellParams />
+        <BuyParams />
+        <SellParams />
 
-          <MinimalRoi />
-          <StopLoss />
-          <TrailingStop />
-          <Timeframe />
-       
+        <MinimalRoi />
+        <StopLoss />
+        <TrailingStop />
+        <Timeframe />
       </form>
     );
   }

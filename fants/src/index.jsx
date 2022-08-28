@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles.scss';
+import './index.scss';
 import App from './App.jsx';
+// import Modal from './App.jsx';
 
 const rootElement = document.querySelector('#root');
 

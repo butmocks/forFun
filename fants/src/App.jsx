@@ -1,27 +1,42 @@
-import { useState } from 'react';
+import ReactModal from 'react-modal';
 import React from 'react';
+import ReactDOM from 'react-dom';
+// import Modal from 'react-modal';
 
-import { Modal, Button } from '@joshdschnneider/formation';
-import ShowOver from './ShowOver';
-function App() {
-  const [open, setOpen] = useState(false);
 
-  function handleOpen() {
-    setOpen(true);
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      showModal: false,
+    };
+
+    this.handleOpenModal = this.handleOpenModal.bind(this);
+    this.handleCloseModal = this.handleCloseModal.bind(this);
   }
 
-  function handleClose() {
-    setOpen(false);
+  handleOpenModal() {
+    this.setState({ showModal: true });
   }
 
-  return (
-    <div>
-      <Button onClick={handleClick}>Open modal</Button>
-      <Modal isOpen={open} onClose={handleClose}>
-        <p>Hello from the modal!</p>
-      </Modal>
-    </div>
-  );
+  handleCloseModal() {
+    this.setState({ showModal: false });
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleOpenModal}>Trigger Modal</button>
+        <ReactModal isOpen={this.state.showModal} contentLabel="Minimal Modal Example">
+          <button onClick={this.handleCloseModal}>Close Modal</button>
+        </ReactModal>
+      </div>
+    );
+  }
 }
+
+const props = {};
+
+ReactDOM.render(<App {...props} />, document.getElementById('root'));
 
 export default App

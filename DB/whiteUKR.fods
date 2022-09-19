@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:document-statistic meta:table-count="1" meta:cell-count="102" meta:object-count="0"/><meta:generator>LibreOffice/7.3.4.2$Linux_X86_64 LibreOffice_project/728fec16bd5f605073805c3c9e7c4212a0120dc5</meta:generator></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">58577</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">23029</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="whiteUKR">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">whiteUKR</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">891</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsValueHighlightingEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item-map-named config:name="ScriptConfiguration">
+    <config:config-item-map-entry config:name="whiteUKR">
+     <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-named>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans Devanagari" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="uk" fo:country="UA" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="Default" style:family="table-cell"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" fo:font-size="24pt" fo:font-style="normal" fo:font-weight="bold" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="Text" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Note" style:family="table-cell" style:parent-style-name="Text">
+   <style:table-cell-properties fo:background-color="#ffffcc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="0.74pt solid #808080"/>
+   <style:text-properties fo:color="#333333"/>
+  </style:style>
+  <style:style style:name="Footnote" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#808080" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Hyperlink" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#0000ee" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="#0000ee"/>
+  </style:style>
+  <style:style style:name="Status" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Good" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ccffcc"/>
+   <style:text-properties fo:color="#006600"/>
+  </style:style>
+  <style:style style:name="Neutral" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffffcc"/>
+   <style:text-properties fo:color="#996600"/>
+  </style:style>
+  <style:style style:name="Bad" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffcccc"/>
+   <style:text-properties fo:color="#cc0000"/>
+  </style:style>
+  <style:style style:name="Warning" style:family="table-cell" style:parent-style-name="Status">
+   <style:text-properties fo:color="#cc0000"/>
+  </style:style>
+  <style:style style:name="Error" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#cc0000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Accent" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Accent_20_1" style:display-name="Accent 1" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#000000"/>
+   <style:text-properties fo:color="#ffffff"/>
+  </style:style>
+  <style:style style:name="Accent_20_2" style:display-name="Accent 2" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#808080"/>
+   <style:text-properties fo:color="#ffffff"/>
+  </style:style>
+  <style:style style:name="Accent_20_3" style:display-name="Accent 3" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#dddddd"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.58cm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="57.997cm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.258cm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+   </style:footer-style>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
+   <table:table table:name="whiteUKR" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>id</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>taskText</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Тримаючи з рук долоню дівчини і ніжно дивлячись у вічі, чоловік розповідає, що йому здається найбільш привабливим у ній, що тягне і манить. Що особливе та незвичайне він відчуває, дивлячись на неї, в чому виражається її індивідуальність та сексуальна привабливість, що змушує мріяти про неї та викликає бажання. Після цього він ніжно цілує дівчину в губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чоловік розповідає, який жіночий одяг, і особливо спідня білизна, здаються йому найбільш привабливими та спокусливими. Докладно зупиняючись на деталях та особливостях, він описує, у чому він хотів би побачити дівчину, в якій вишуканій білизні. Відверта, джентльмен фантазує, наскільки сексуально виглядатиме в ньому дівчина, як еротично підкреслить її фігуру така білизна. Продовжуючи цю вкрай захоплюючу тему, дівчина розповідає, яка нижня білизна їй найбільше подобається, деталізуючи всі нюанси, тонкощі та фасон. При цьому намагається красиво описати, як вона почувається в ньому, наскільки спокусливо виглядає. «Проковтнувши слинки», чоловік ніжно цілує панночку у вушко.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="3" calcext:value-type="float">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Вибравши саму соковиту полуничку, той, хто фантує, бере її в губи і пригощає другого гравця. Той ласує неквапливо, розтягуючи насолоду від процесу і повільними шматочками відкушуючи від дивовижного частування. Наступну ягоду бере в губи другий гравець і тепер він пригощає фантуючого. Якщо не дай боже, всю полуницю підло з&apos;їла покоївка, вам доведеться перейти на банан. У цьому випадку, очистивши його, ви починаєте одночасно, з двох боків поїдати фрукт назустріч один одному. Коли губи стикнуться, ви закушує свій десерт ніжним французьким поцілунком.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина відверто розповідає, чи було її життя таке, коли хтось сторонній бачив, як вона займається сексом. Вона описує ту пікантну історію в деталях та подробицях, згадуючи, що випробувала при цьому, злякалася чи навпаки, ще більше збудилася. «Вдячний слухач» може випитувати панночку про всі тонкощі і нюанси того, що відбувалося, щиро співпереживаючи бідолашній, що потрапила в таку непристойну історію. Одкровення дівчини винагороджується ніжним поцілунком у губки.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="5" calcext:value-type="float">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Взявши долоню дівчини, чоловік присувається до неї ближче. Заплющивши очі і розслабившись, панночка розповідає, які відчуття вона відчуває під час наростання сексуального збудження, що відчуває і переживає, чого їй при цьому хочеться найбільше, яких ласок, дотиків, дій.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий розповідає про еротичний фільм, що запам&apos;ятався йому, можливо трохи прикрашаючи і доповнюючи його. Він докладно описує найромантичніші сцени і яскраво ілюструє найсексуальніші епізоди. При цьому особливу увагу намагається приділити почуттям та переживанням героїв, їх емоціям та відчуттям. Вислухавши цей захоплюючий спогад, другий гравець фантазує, що він доповнив або змінив у сюжеті, якби був на місці режисера фільму або писав його сценарій. Немає бажання на наступному побаченні подивитися вдвох цей цікавий фільм, затишно влаштувавши диванчик?</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Взявши долоню дівчини, чоловік присувається до неї ближче, готуючись уважно слухати. Заплющивши очі і настроївшись на романтичний стан, дівчина згадує про незвичайну еротичну історію, яка трапилася якось з її подругою, барвисто описуючи почуття та переживання, випробувані тією. При цьому особливу увагу вона намагається приділити емоціям та відчуттям тієї панночки, детально зупиняючись на найдрібніших нюансах та особливостях «сексуальної пригоди» подруги. Коли розповідь завершиться, ви по черзі випиваєте один одного з рота по ковтку вина.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="8" calcext:value-type="float">
+      <text:p>8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чоловік цілує руку дівчині. Спочатку він робить це як партнера з бізнесу, потім - з ввічливості, потім - як шанувальник співачки і, нарешті, - як коханець своєї обраниці.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="9" calcext:value-type="float">
+      <text:p>9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чоловік докладно розповідає, як він уперше займався сексом. Описує, як усе це відбувалося, де і з ким, що він відчував, які відчуття та емоції відчував, чого соромився і як поводився при цьому, що робила його партнерка. Дівчина може розпитувати чоловіка про деталі та нюанси того, що відбувалося, а він зобов&apos;язаний відверто розповідати їй про все. Вислухавши історію чоловіка, тепер уже панна розповідає свою. Але, може, описуючи не як вона втратила цноту, а той випадок, коли вперше із задоволенням займалася сексом. Детально згадуючи, як усе це було тоді, вона, не соромлячись, відверто розповідає про свої переживання і «смакує деталі» колишнього. Тепер уже чоловік може «покривлятися», випитуючи панночку про нюанси того, що відбувалося. Завершивши свої історії, ви дякуєте один одному за відвертість поцілунком у губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чоловік притискає вухо до грудей дівчини та уважно слухає, як б&apos;ється її серце. У цьому, засікаючи час, він розраховує її пульс. Закінчивши &quot;обстеження&quot;, він цілує їй.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="11" calcext:value-type="float">
+      <text:p>11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Гравці, тримаючись за руки і ніжно дивлячись у вічі, почергово говорять один одному компліменти романтичного характеру. Починає чоловік. У цьому компліменти нічого не винні повторюватися, але в роздуми дається трохи більше десяти секунд. Той, хто скаже їх більше, не поспішаючи і чуттєво знімає з іншого одну частину одягу, а потім ніжно цілує його в губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючому зав&apos;язують очі, а другий гравець дбайливо і грайливо годує його зі своїх рук ягодами, фруктами та солодощами, поки той не насититься. Після цього він дає йому запити ці ласощі ковтком вина зі свого рота. На подяку фантуючий говорить партнеру вишуканий романтичний комплімент.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий відверто розповідає, чи займався він колись груповим сексом. Він описує історію в деталях і подробицях, згадуючи, як усе відбувалося, що він відчував у своїй, чи збуджувало щось його особливо. Другий гравець може просити його докладніше зупинитися на конкретних деталях тієї історії, а він, не соромлячись, зобов&apos;язаний відповідати на такі запитання. Після цього ви міняєтеся ролями, і тепер фантующий перетворюється на уважного слухача, а другий гравець - на гранично відвертого оповідача. Завершивши свої історії, ви дякуєте один одному за відвертість поцілунком у губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="14" calcext:value-type="float">
+      <text:p>14</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина розповідає, який чоловічий одяг, і особливо нижню білизну, вона вважає найбільш привабливою та спокусливою. Яким чином одягнений (або роздягнений) чоловік здається їй більш сексуальним. Докладно зупиняючись на деталях та особливостях, вона описує, у чому хотіла б побачити сьогоднішнього свого партнера, включаючи нижню білизну. Розмірковуючи вголос, немов режисер жіночого клубу, вона фантазує, наскільки спокусливо він виглядатиме, як еротично підкреслить його фігуру така білизна. Завершивши своє захоплююче оповідання, дівчина ніжно цілує чоловіка в щоку.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="15" calcext:value-type="float">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Тримаючи в руках долоню дівчини і дивлячись їй в обличчя, чоловік зізнається, яка частина її тіла окрім очей здається йому найбільш привабливою, як він хотів би ніжно та пристрасно цілувати та пестити її. На подяку за сміливість і одкровення дівчина нагороджує його поцілунком у губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&quot;Ніжний танець двох змійок&quot;, - так можна назвати це завдання. Тримаючи руки один у одного на талії і не торкаючись губами, ви граєте мовами, наче роблячи незвичайний французький поцілунок. При цьому можна змінюватися активною роллю, так вийде цікавіше. Наприклад, спочатку провідну роль грає дівчина, обвиваючись своєю мовою навколо чоловічої, а потім це робить джентльмен.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="17" calcext:value-type="float">
+      <text:p>17</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Танцюючи повільний танець під романтичну музику, ви тісно притискаєтесь і пестите один одного. Чоловік чуттєво цілує дівчину в шию, гладить їй спину, стегна, попочку, а вона ніжно обіймає його, потираючи грудьми та животом. Все це робиться так, щоб ласки були дуже чуттєвими та приємними для обох із вас, збуджуючи та викликаючи бажання. Закінчивши танець, дівчина цілує чоловіка в губи, давши трохи посмоктати свій язичок.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="18" calcext:value-type="float">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Намагаючись робити все максимально еротично, той, хто фантує, з&apos;їдає фрукт або насолоду, яку йому підбирає партнер. Що він уявить при цьому - його особиста справа, але виглядати все має гранично зухвало і відверто. Якщо другому гравцю сподобається така міні-вистава, він нагороджує «актора» ніжним поцілунком у губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="19" calcext:value-type="float">
+      <text:p>19</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина відверто розповідає, чи подобається їй бути оголеною перед сторонніми, збуджує це чи навпаки, більше бентежить та сковує. Що вона відчуває, ловлячи відверті погляди на своєму неприкритому тілі. Чи доводилося їй бувати на нудистському пляжі чи хоча б засмагати топ-лес. Адже, наприклад, в австрійських лазнях усі мають бути повністю роздягнені, такий порядок і всі спокійно дотримуються його. А вона, почала б бентежитися чи з цікавістю подивилася на інших і показала себе? Може, їй самій подобається підглядати за іншими, тоді більше за ким, чоловіками чи жінками? На подяку за одкровення чоловік ніжно цілує панночку в шию.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="20" calcext:value-type="float">
+      <text:p>20</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Взявши невеликий кубик льоду до рота, чоловік передає його до рота дівчині. За мить вона так само повертає його назад. І так таз щоразу, поки кубик не розтане остаточно. Той, у кого він зник у роті, стає програвшим і знімає одну частину одягу. Але тільки ви обидва повинні чинити чесно!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="21" calcext:value-type="float">
+      <text:p>21</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Розглядаючи пози Каталогу, панночка вибирає сцену, що їй найбільш сподобалася, і вигадує романтичну історію, фіналом якої вона з&apos;явилася. При цьому відчуття, переживання та почуття учасників такої історії під час зображеного дійства дівчина намагається описати максимально докладно та чуттєво. Чоловік під час оповідання може доповнювати її, коментувати чи розпитувати подробиці вигаданої любовної пригоди.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="22" calcext:value-type="float">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Тримаючи чоловіка за руку, дівчина заплющує очі і, розслабившись, докладно розповідає, як їй хотілося б, щоб її роздягали та в якій обстановці. Крок за кроком вона описує процедуру повільного оголення свого тіла, відчуття своєї шкіри від дотиків до неї чоловічих пальців, ніг від ковзання по них долонь, що знімають панчохи. Згадує почуття солодкого ознобу, що пробігає вздовж спини від тепла пальців, що розстібають застібку бюстгальтера... Після цього чоловік ніжно цілує її в губи, і вони знімають один з одного по одній частині одягу.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="23" calcext:value-type="float">
+      <text:p>23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Любите добрий та чуттєвий стриптиз? Забувши про пристойність, чоловік уявляє, що дівчина – стриптизерка. Відверта, він фантазує, в якому одязі мріяв би побачити партнерку, що танцює для нього. Барвисто і образно описує, як сексуально виглядає при цьому її напівоголене тіло, що звивається в танці. Потім розповідає як граючи і дражнячи, вона знімає одну частину одягу, потім другу і, нарешті, залишається в останній, явно спокушаючи глядачів своїм дійством. Якщо ця історія варта нагороди, дівчина ніжно цілує свого кавалера.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="24" calcext:value-type="float">
+      <text:p>24</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Заплющивши очі і розслабившись, фантуючий розповідає, як би він хотів зайнятися любов&apos;ю на природі з другим гравцем, докладно зупиняючись на описі місця, дійства, емоціях та відчуттях. Слухаючи це захоплююче оповідання, партнер може запитувати, доповнювати його, коментувати та висловлювати побажання. Після того, як розповідь завершиться, ви міняєтеся ролями, і тепер фант перетворюється на уважного слухача, а другий гравець занурюється у свої відверті фантазії. &quot;Повернувшись на землю&quot;, ви ніжно цілуєтеся в губи і знімаєте один з одного по одній частині одягу.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="25" calcext:value-type="float">
+      <text:p>25</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Той, хто фанує цілу хвилину ніжно грає з нижньою губою партнера. Спочатку, подразнюючи і трохи торкаючись, кілька разів проводить по ній самим кінчиком своєї мови, а потім лагідним вампірчиком посмоктує, смикає і покусує її своїми губами. Потім та ж гра повторюється з верхньою губою, а на завершення ще раз з тією, якою все це найбільше сподобалося. Якщо «вампірчик» приніс задоволення, його гладять по голівці.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="26" calcext:value-type="float">
+      <text:p>26</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чоловік докладно і відверто розповідає про незвичайну сексуальну пригоду у своєму житті, коли він отримав найбільше задоволення. Відкинувши непотрібне сором&apos;язливість, він у тонкостях зупиняється на пікантних моментах того, що сталося. Згадуючи свої емоції, почуття та відчуття, докладно та барвисто описуючи найдрібніші деталі та нюанси того, що відбувалося, він ніби знову переживає ту дивовижну історію. Дівчина може як завгодно детально вивідувати в нього про все, а він повинен бути остаточно відвертим. Панночка нагороджує його за розповідь ніжним і довгим поцілунком у губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="27" calcext:value-type="float">
+      <text:p>27</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина, дивлячись у вічі чоловікові, з&apos;їдає банан. Вона робить все не поспішаючи і дуже еротично, щиро насолоджуючись своєю грою. Після цього чоловік дає їй запити ці ласощі ковтком вина зі свого рота.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="28" calcext:value-type="float">
+      <text:p>28</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Відкинувши нікому не потрібну скромність дівчина відверто зізнається чи пробувала вона інтимні стосунки з особливою своєю статтю, чи хоча б просто ласки. Якщо так, то розповідає, як це відбувалося того дня, коли вона отримала найбільше задоволення. Якщо такого ще не було, то чи припускає вона думка про це і чи має вона нереалізовані лесбійські фантазії. Ну а якщо не пробувала і не хоче, то господь їй суддя!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="29" calcext:value-type="float">
+      <text:p>29</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Замість того, щоб включати кондиціонер, ви знімаєте один з одного по одній частині одягу і продовжуєте далі цю захоплюючу гру.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="30" calcext:value-type="float">
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дивлячись у вічі дівчині, чоловік злизує з тильного боку її долоні крапельку шоколаду, джему чи меду. Він робить все повільно та дуже еротично, щиро насолоджуючись власною грою. Після цього дівчина дає йому запити ці ласощі ковтком вина зі свого рота.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="31" calcext:value-type="float">
+      <text:p>31</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Тримаючи дівчину за руку і ніжно дивлячись їй у вічі, чоловік описує, яка зачіска на жіночому лобку йому найбільше подобається і яку б хотілося зробити інтимну зачіску їй. Трикутничок, серце, смужка, або що йому найбільше подобається? Поголив би він цей ніжний горбок або пофарбував волосики в якийсь особливий колір? Фантазує, як він усе зробив і в якій обстановці. Потім крізь одяг чіпає її лобок і ніжно цілує дівчину в вушка: спочатку одне, а потім друге.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="32" calcext:value-type="float">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Секс і свобода, розкутість та комплекси, умовності та вседозволеність. Не особливо захоплюючись, але й не стримуючись, п&apos;ять хвилин, що фантує, філософствує на цю актуальну зараз тему.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="33" calcext:value-type="float">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина пристрасно і чуттєво цілує чоловіка в губи, дозволяючи йому ніжно посмоктати свій язичок.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="34" calcext:value-type="float">
+      <text:p>34</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина розповідає, яка на її погляд сексуальна фантазія є найпоширенішою у чоловіків, і що вона з цього приводу думає. На подяку за одкровення джентльмен ніжно цілує її в губки. Після цього настає його черга, і тепер уже він яскраво описує найсміливішу жіночу сексуальну фантазію. Якщо дівчина не засуджує джентльмена за такі вільні думки, підтверджує свою згоду ніжним поцілунком.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="35" calcext:value-type="float">
+      <text:p>35</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий докладно розповідає, яка обстановка йому здається найромантичнішою і схильною до інтимних відносин, детально описуючи меблі, елементи інтер&apos;єру, колір, запахи, звуки... Після цього другий гравець продовжує його розповідь, все більше наповнюючи відчуттям еротики цей віртуальний «куточок кохання». Удвох ви ніби готуєте місце для свого наступного романтичного побачення. Поцілувавши один одного в носик, ви продовжуєте гру.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="36" calcext:value-type="float">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий відверто розповідає, який би він хотів бачити своє сексуальне життя, наскільки часто і з ким хотів би займатися сексом, якою різноманітною та насиченою була б вона. Він просто мріє і не більше того, мріє наяву, як опинився в раю, де дозволено все. Після цього, тримаючи в руках долоню фантуючого, про свої таємні бажання відверто другий гравець. Сприйнявши розповіді як тост, ви випиваєте з рота один одного по ковтку вина за виконання бажань.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="37" calcext:value-type="float">
+      <text:p>37</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Насолоджуючись чуттєвістю, ви зливаєтеся у одкровенні тантричного поцілунку. Сидячи на колінах свого партнера і ніжно дивлячись йому в очі, дівчина розчиняється в його подиху, вдихаючи на його видиху та видихаючи на вдиху. Не припиняючи дихати на цій хвилі, вона дарує йому довгий поцілунок, насолоджуючись таким чуттєвим єднанням.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="38" calcext:value-type="float">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Відкинувшись у кріслі з келихом вина, той, хто фантує, розповідає про історію свого життя, коли йому дуже хотілося сексу з тією людиною, якій ніяк не можна було цього запропонувати. Хотілося шалено, мріялося теж, навіть снилося іноді, але не можна було і все! Можливо, це була вчителька (вчитель) чи дружина найближчого друга (чоловік подруги), сестра чи брат, нарешті. При цьому всі муки та сумніви описуються дуже докладно та відверто, а на запитання даються вичерпні відповіді.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="39" calcext:value-type="float">
+      <text:p>39</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Гравці по черзі розповідають, від чого вони відчувають найбільше задоволення, чим найбільше хотілося б займатися за можливості, радіючи та насолоджуючись життям. Починає дівчина. Розцінивши розповіді як тост, ви випиваєте з рота один одного по ковтку вина за виконання бажань і продовжуєте гру далі.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="40" calcext:value-type="float">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Занурившись у спогади, той, хто фантазує, розповідає про найнезвичайніший і яскравіший еротичний сон свого життя. Розповідає про деталі, барвисто описує почуття та переживання, подаровані іншим виміром. Ким він був, жінкою чи чоловіком, що дозволяв собі, і що витворювали з ним, як було страшно, солодко чи боляче. Зізнається, чи хотілося йому потім, може таємно або в іншому житті випробувати наяву все, що мріє.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="41" calcext:value-type="float">
+      <text:p>41</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий вголос мріє про те, як, насолоджуючись життям і коханою людиною, він провів би медовий місяць, не маючи жодних турбот і розпоряджаючись світом з власної забаганки. Його віртуальний бюджет не лімітований, а кордонів або відстаней не існує. Випивши з рота один одного по ковтку вина за втілення фантазій, ви продовжуєте гру далі.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="42" calcext:value-type="float">
+      <text:p>42</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Взявши долоню дівчини, чоловік присувається до неї ближче, готуючись уважно слухати. Заплющивши очі і настроївшись на романтичний стан, панночка розповідає, як люди закохуються один в одного, як поступово виникає це почуття, як з&apos;являються мрії та бажання, як, хвилюючись і передчуваючи, вони чекають чергового побачення, як хочуть близькості і як усе це, нарешті відбувається. Закінчивши своє оповідання, вона цілує чоловіка в губи.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="43" calcext:value-type="float">
+      <text:p>43</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий акуратно намазує губи другого гравця чимось солодким (шоколадом, медом, джемом...), а сам раптом стає жадібною «бджілкою», яка ніяк не може спокійно пролетіти повз такий привабливий здобич. Якщо бджілка була гарненькою, то її гладять по голівці.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="44" calcext:value-type="float">
+      <text:p>44</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Чуттєво цілуючи дівчині шию, чоловік дарує їй настільки незвичайний, але шалено приємний «ланцюжок». Доповнивши її віртуальним колечком, він ніжно цілує панянку пальчик і, з любов&apos;ю дивлячись їй у вічі, каже вишуканий комплімент.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="45" calcext:value-type="float">
+      <text:p>45</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дівчина відверто згадує, коли у неї буквально перехопило подих і затремтіли коліна від сексуального бажання побачивши чоловіка. Хто це був, коли таке сталося і в якійсь зупинці. Чи вдалося потім завести з ним роман, а може, просто інтрижку чи пристрасний порив так і розтанув з часом?</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="46" calcext:value-type="float">
+      <text:p>46</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Фантуючий розповідає коли, коли доби він зазвичай відчуває найбільше сексуальне бажання і коли б вважав за краще займатися сексом якби це залежало тільки від нього.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="47" calcext:value-type="float">
+      <text:p>47</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Стаючи модельєром закритого еротичного клубу, чоловік віртуально одягає (роздягає) жінок, що прийшли на неї, в момент, коли вечірка вже в розпалі. Захоплюючись подробицями, він детально описує тонкощі та нюанси їхнього гардеробу, підбираючи його з урахуванням особливостей фігур. Типажі і комплекція жінок можуть бути різними, а специфіка клубу нічим не обмежує перекрученість відвідувачів. Багато хто з них у масках і, будучи інкогніто, насолоджуються абсолютною вседозволеністю. Оцінивши розповідь джентльмена, дівчина доповнює його фантазії, представивши себе в ролі однієї з таких відвідувачок і докладно описавши власний гардероб.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="48" calcext:value-type="float">
+      <text:p>48</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Цілу хвилину чоловік ніжно покусує і цілує дівчині спочатку одне, а потім інше вушко, розповідаючи, якими дивно смачними вони виявилися. Поцілувавши потім мочки вух, чоловік дарує їй настільки незвичайні, але дуже приємні «сережки». Доповнивши їх віртуальним кулончиком, він ніжно цілує панянку посередині грудей і, з любов&apos;ю дивлячись у вічі, каже їй вишуканий комплімент.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="49" calcext:value-type="float">
+      <text:p>49</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Той, хто фанує гранично відверто розповідає, чи подобається йому порно і якщо так, то - яке. Він докладно описує, у чому йому межа між еротикою і порнографією і який витвір мистецтва цього жанру він запам&apos;ятав найбільше (живопис, графіка, постановка, фільм, розповідь...). Послухавши все це, другий гравець теж стає відвертим і чесно зізнається, що відчуває, підглядаючи, як інші займаються сексом.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="50" calcext:value-type="float">
+      <text:p>50</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ліва рука в дівчини ближче до серця, ніж права, але чи знає вона, який з пальчиків цієї руки чутливіший? З таким надзвичайно важливим питанням слід негайно розібратись! Насолоджуючись процесом, розтягуючи задоволення і не поспішаючи, чоловік один за одним досліджує ці пальчики. Цілує їх, кладе в рот, обвивається навколо язиком, ніжно смоктає і лиже. Тому пальчику, який найбільш чутливий, приділяється особлива увага.</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: Number of airports
+  description: Total number of airports.
+  tags:
+    - airports
+code: rql
+declaration: total
+codeFile: code.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
+tests:
+  - name: count_airports
+    description: Run the 'Number of airports' endpoint.

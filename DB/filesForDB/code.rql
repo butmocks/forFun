@@ -1,0 +1,27 @@
+airports := READ("https://raw-tutorial.s3.amazonaws.com/airports.csv");
+
+// Total number of airports.
+total() := {
+    SELECT COUNT(*) FROM airports
+};
+
+// Number of airports per country.
+number_airports_per_country() := {
+    SELECT Country, COUNT(*) AS Number_Airports
+    FROM airports
+    GROUP BY Country
+    ORDER BY Number_Airports DESC
+}
+
+// Number of airports in a given country.
+airports_for_country(country: string) := {
+    SELECT Country, COUNT(*) AS Number_Airports
+    FROM airports AS a
+    WHERE a.Country = country
+    GROUP by a.Country
+}
+
+// All airports.
+all_airports() := {
+    SELECT * FROM airports
+}

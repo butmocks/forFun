@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: Airports in a country
+  description: List of airports in a given country.
+  tags:
+    - airports
+code: rql
+declaration: airports_for_country
+codeFile: code.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
+tests:
+  - name: airports_in_country
+    description: Run the 'Airports in a country' endpoint.
+    arguments:
+      - key: country
+        value: Portugal

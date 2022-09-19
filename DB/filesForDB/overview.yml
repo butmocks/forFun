@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: Number of airports per country
+  description: List with number of airports per country.
+  tags:
+    - airports
+code: rql
+declaration: number_airports_per_country
+codeFile: code.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
+tests:
+  - name: airports_country
+    description: Run the 'Number of airports per country' endpoint.
+    arguments:
+      - key: country
+        value: Greece

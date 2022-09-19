@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: All airports
+  description: List of airports.
+  tags:
+    - airports
+code: rql
+declaration: all_airports
+codeFile: code.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
+tests:
+  - name: all_airports
+    description: Run the 'All airports' endpoint.

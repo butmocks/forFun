@@ -1,8 +1,0 @@
-Account Number: 11114824
-Email: abc@domain.com
-
-Card Number: 0007
-
-Credit/Debit Account: 0007
-
-Transaction:    04/26/2022     199.00     Any other free text

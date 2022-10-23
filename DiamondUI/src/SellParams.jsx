@@ -57,7 +57,7 @@ const SellParams = () => {
           
         </label>
       </div>
-
+      value
       <label>
         Sell slow key
         <select value={sellSlowvalue} onChange={handleChangeSlow}>

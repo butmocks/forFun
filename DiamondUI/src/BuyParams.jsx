@@ -29,7 +29,7 @@ const BuyParams = () => {
   const handleChange = event => {
     setValue(event.target.value);
   };
-
+  в
   const handleChangeBuyHorizontal = event => {
     setBuyHorizontalValue(event.target.value);
   };

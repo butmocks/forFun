@@ -1,64 +1,33 @@
-
-import React, { useState } from "react";
-import axios from "axios";
-import "../AllTasks.scss";
-
-
-
-export default function RandomTask() {
-
-
-  const [task, setTask] = useState()
-
-  // let id = Math.floor(Math.random() * 200)
-  // { params: { answer: 42 } }
-  useState(() => {
-    axios
-      .get('./dbv6.json')
-      .then((res) => setTask(res.data))
-      .catch(err => console.log(err))
-  
-  }, []);
-
-  // console.log(useState([Math.floor(Math.random() * 200)]))
-
-  // console.log([Math.floor(Math.random()*200)])
-
-
-
-let id = 4
-
-  return (
-
-    <div className="App">
-      <div className=""><p>maybe random</p>
-
-      </div>
-
-      <div className="title-text"><strong>RANDOM TASK</strong>
-        (<i>JSON file using react API call(fetch, axios)</i>)
-      </div>
-
-      {task && task?.map(({ task, id }) => (
-
-
-        <div key={`$[id].4`} className="list-row">
-
-          <div> {task} </div>
-          {/* <strong>{task}</strong> */}
-        </div>
-      ))}
-    </div>
-  );
+import React from "react"
+import axios from "axios"
+const URL = "./dbv7.json"
+class RandomTask extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { error: null, isLoaded: false, allTasks: [] }
+  }
+  componentDidMount() {
+    axios.get(URL / [10].id)
+      .then(res => res.json(data)).then((result) => {
+        this.setState({ isLoaded: true, allTasks: result })
+      },
+        // Примечание: важно обрабатывать ошибки именно здесь, а не в блоке catch(), 
+        // чтобы не перехватывать исключения из ошибок в самих компонентах. 
+        (error) => {
+          this.setState({ isLoaded: true, error })
+        })
+  }
+  render() {
+    const { error, isLoaded, allTasks } = this.state
+    if (error) {
+      return <div>Ошибка: {error.message}</div>
+    } else if (!isLoaded) {
+      return <div>Загрузка...</div>
+    } else {
+      return (<ul> allTasks.map{(allTasks =>
+      (<li key={allTasks.id}> {allTasks.id} {allTasks.task} </li>
+      ))} </ul>);
+    }
+  }
 }
-
-
-// function randomQuote() {
-//   let random = quotes[Math.floor(Math.random() * quotes.length)];
-//   quotation.innerText = `“${random.quote}.”`;
-//   source.innerText = random.source;
-// }
-
-// randomQuote();
-
-// document.querySelector("button").addEventListener('click', randomQuote)
+export default RandomTask

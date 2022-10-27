@@ -10,7 +10,7 @@ export default class RandomTask extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`./dbv6.json`)
+    axios.get(`dbv6.json`)
       .then(res => {
         const taskArr = res.data;
         this.setState({ taskArr });
@@ -22,7 +22,7 @@ export default class RandomTask extends React.Component {
       <div >
         
               <ul>
-        {this.state.taskArr.map(task => <li>{task.id}</li>)}
+        {this.state.taskArr.map(task => <li>{task.task}</li>)}
       </ul>
       </div>
 

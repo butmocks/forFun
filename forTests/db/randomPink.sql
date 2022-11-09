@@ -1,4 +1,0 @@
-SELECT * 
-FROM pinkgame
-LIMIT 1 
-OFFSET ABS(RANDOM()) % MAX((SELECT COUNT(*) FROM pinkgame), 1)

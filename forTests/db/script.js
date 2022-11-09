@@ -1,11 +1,11 @@
-import { Statement } from "sqlite3";
 
 
 
 
 
 
-function newFunction() {
+
+
 
   // const sqlite3 = require('sqlite3')
   let db = new sqlite3.Database('./gamedb.db', (err) => {
@@ -33,8 +33,3 @@ function newFunction() {
     }
     console.log('Close the database connection.');
   });
-}
-newFunction()
-console.log(db.serialize())
-console.log(seeRes)
-console.log(newFunction())

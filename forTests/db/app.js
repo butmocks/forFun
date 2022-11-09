@@ -22,7 +22,7 @@
 
 function redRand() {
   const sqlite3 = require('sqlite3').verbose();
-  const db = new sqlite3.Database('gamedb.db');
+  const db = new sqlite3.Database('./db.sqlite3');
 
 
   db.serialize(() => {

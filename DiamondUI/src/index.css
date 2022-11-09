@@ -1,5 +1,4 @@
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -9,14 +8,8 @@ body {
 
 #root {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -28,11 +21,8 @@ body {
 .user {
   margin: 8px;
   width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .user__age {
   font-weight: 700;
   opacity: 0.5;
@@ -50,5 +40,4 @@ body {
   padding: 8px;
   cursor: pointer;
   background-color: green;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

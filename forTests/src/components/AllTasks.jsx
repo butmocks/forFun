@@ -8,13 +8,13 @@ import "../AllTasks.scss";
 const AllTasks = () => {
 
 
-  const [task, setTask] = useState()
+  const [task, setTask] = useState([])
 
   // let id = Math.floor(Math.random() * 200)
   // { params: { answer: 42 } }
   useState(() => {
     axios
-      .get('./dbv6.json')
+      .get('./dbv7.json')
       .then((res) => {
         const allTasks = res.data
         setTask(allTasks)
